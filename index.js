@@ -35,3 +35,5 @@ Git commends i learned so far:
 - git push -u 'remote branch name' 'branch name / master name'
 - git pull 'remote branch name' 'branch name / master name'
 */
+// this is just a comment
+// boga boga baby!
