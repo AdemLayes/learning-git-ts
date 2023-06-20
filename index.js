@@ -30,4 +30,8 @@ Git commends i learned so far:
 - git commit -m "message"
 - git rm --cached 'file name'
 - git merge 'branch name'
+- git remote -v
+  git remote add 'remote branch name' 'url(from gitHub)'
+- git push -u 'remote branch name' 'branch name / master name'
+- git pull 'remote branch name' 'branch name / master name'
 */
