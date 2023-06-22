@@ -4,21 +4,32 @@ Git commends i learned so far:
   git config --global user.email 'email'
 - git init
   git init 'repo name'
-- git status
-- git log
-- git touch 'file name'
 - git cd 'derectory'
+- git status
+  git status -s
+- git log
+  git log --oneline
+  git log --reverse
+- git show HEAD~'number'
+  git show 'identifier ID'
 - ls
   ls -a
+  git ls-files
+- git touch 'file name'
 - git branch
   git branch 'branch name'
-- git checkout 'branch name or master'
+- git checkout 'branch name / master / identifier ID'
+- git merge 'branch name'
 - git add 'file name'
   git add .
-  git add *.html
+  git add *.html / *index
 - git commit -m "message"
+  git commit
+  git commit -a
+- git diff
+  git diff --staged
 - git rm --cached 'file name'
-- git merge 'branch name'
+  git rm 'file name'
 - git remote -v
   git remote add 'remote branch name' 'url(from gitHub)'
 - git push -u 'remote branch name' 'branch name / master name'
