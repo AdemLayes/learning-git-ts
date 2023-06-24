@@ -2,24 +2,25 @@ Git commends i learned so far:
 
 - git config --global user.name 'name'
   git config --global user.email 'email'
+
+- git mkdir 'derectory name'
+- git cd 'derectory name'
+- git touch 'file name'
 - git init
   git init 'repo name'
-- git cd 'derectory'
+
 - git status
   git status -s
 - git log
   git log --oneline
   git log --reverse
 - git show HEAD~'number'
-  git show 'identifier ID'
+  git show 'ID identifier'
 - ls
   ls -a
   git ls-files
-- git touch 'file name'
-- git branch
-  git branch 'branch name'
-- git checkout 'branch name / master / identifier ID'
-- git merge 'branch name'
+  git ls-tree 'master / HEAD~'number' / ID identifier'
+  
 - git add 'file name'
   git add .
   git add *.html / *index
@@ -30,6 +31,14 @@ Git commends i learned so far:
   git diff --staged
 - git rm --cached 'file name'
   git rm 'file name'
+- git restore --staged 'file name'
+  git restore 'file name'
+- git clean -fd
+- git branch
+  git branch 'branch name'
+- git checkout 'branch name / master / ID identifier'
+  git checkout -b 'branch name / master / ID identifier'
+- git merge 'branch name'
 - git remote -v
   git remote add 'remote branch name' 'url(from gitHub)'
 - git push -u 'remote branch name' 'branch name / master name'
