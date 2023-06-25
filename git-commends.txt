@@ -11,7 +11,7 @@ Git commends i learned so far:
 
 - git add 'file name'
   git add .
-  git add *.html | *index
+  git add [*.html | *index]
 - git commit -m "message"
   git commit
   git commit -a
@@ -19,24 +19,23 @@ Git commends i learned so far:
 - git branch
   git branch 'branch name'
   git branch -d 'branch name'
-- git checkout 'branch name | master | ID identifier'
+- git checkout ['branch name | master | ID identifier']
   git checkout -b 'branch name'
 - git merge 'branch name'
 
 - git status
   git status -s
-- git log
+- git log [  | origin/master]
   git log --oneline
   git log --reverse
-- git fetch origin
 - git show HEAD~'number'
   git show 'ID identifier'
-- git diff
-  git diff --staged
+- git diff [  | --staged | origin/master]
+- git fetch origin
 - ls
   ls -a
   git ls-files
-  git ls-tree 'master | HEAD~'number' | ID identifier'
+  git ls-tree ['master | HEAD~'number' | ID identifier']
 
 - git rm --cached 'file name'
   git rm 'file name'
@@ -47,5 +46,5 @@ Git commends i learned so far:
 - git remote -v
   git remote add origin 'url(from gitHub)'
 
-- git push [--set-upsteam | -u] origin master
-- git pull origin 'branch name | master name'
+- git push [--set-upsteam | -u] origin/master
+- git pull origin ['branch name | master name']
