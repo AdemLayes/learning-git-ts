@@ -45,7 +45,8 @@ Git commends i learned so far:
 - git clean -fd
 
 - git remote -v
-  git remote add origin 'url(from gitHub)'
+  git remote add origin 'url(from GitHub)'
+- git clone 'url(from GitHub)'
 
 - git push [--set-upsteam | -u] origin/master
 - git pull origin ['branch name | master name']
